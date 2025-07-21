@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #2196F3; 
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav button {
+    margin-right: 20px;
+    padding: 10px 15px;
+    background-color: #2E7D32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+nav button:hover {
+    background-color: #45A049;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+}
+
+nav button:active {
+    background-color: #f5faf6;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+main {
+  padding: 20px;
+}
+
+.bienvenido {
+  background-color: #FFC107; 
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.destacado {
+  background-color: #FF5722; 
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.noticias {
+  background-color: #9C27B0; 
+  color: white;
+  padding: 20px;
+}
+
+.noticias-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #BA68C8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: left;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.noticias-button:hover {
+  background-color: #ad67cb; 
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+}
+
+.noticias-button:active {
+  background-color: #4b1e5f; 
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+footer {
+  background-color: #607d8b; 
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-right: 20px;
+  margin: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-top: 20px solid white;
+}
